@@ -1,0 +1,6 @@
+MYSQL_DATABASE=develop
+MYSQL_ROOT_PASSWORD=password
+TZ=Asia/Tokyo
+
+PHP_MYSQL_USER=root
+PHP_MYSQL_PASSWORD=password
