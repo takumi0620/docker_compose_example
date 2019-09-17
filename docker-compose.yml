@@ -9,6 +9,8 @@ services:
     build: ./nginx
     ports:
       - "80:80"
+      # mac等で443がすでに使用されている場合、444:443とかテキトーなポートを指定すると良い。
+      # そのときはhttps://localhost:444でリクエストすること
       - "443:443"
     volumes:
       - ./default.conf:/etc/nginx/conf.d/default.conf
